@@ -43,7 +43,7 @@ public class Prompter {
   }
   
   private void winnerMessagePrompt(Jar jar, int tries) {
-    System.out.printf("%n%nCongratulations - you guessed that there are %d %s(s) in the jar! It took you %d guess(es) to get it right. %n%n",
+    System.out.printf("%n%nCongratulations - you guessed that there are %d %s(s) in the jar! You got it in %d attempt(s). %n%n",
                          jar.getFillLevel(), jar.getItem(), tries);
   }
 
